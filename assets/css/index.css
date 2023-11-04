@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* header - start */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid #CBD6E2;
+    width: 100%;
+}
+
+.header .header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.header .header__logo span {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .header__logo span:hover {
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+
+.header .nav  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul li {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav ul li:hover {
+    border-bottom: 2px solid blue;
+}
+
+.header .button {
+    width: 131px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 1px solid #000;
+    background: #FFF;
+    cursor: pointer;
+    color: #222;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .button:hover {
+    border: 2px solid blue;
+}
+
+
+/* header - end */
+
+/* main - start */
+
+
+.main {
+    padding-top: 50px;
+}
+
+.main .main__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play__icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.play__icon .icon__h4 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.play__title {
+    padding-top: 33px;
+}
+
+.play__title .title__h1 {
+    color: #222;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px;
+}
+
+.play__subtitle {
+    padding-top: 23px;
+}
+
+.play__subtitle .sub__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.playMarket {
+    display: flex;
+    justify-content: start;  
+    align-items: center;
+    gap: 20px;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+/* main - end  */
+
+
+/* main2 - start */
+
+.main2 {
+    padding-top: 110px;
+}
+
+.main2 .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box2__title .box2__h2  {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.box2__subtitle .box2__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 22px;
+}
+
+.box2__subtitle .box2__p2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+
+.box3 {
+    padding-top: 120px;
+}
+
+.box3 .main__box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title .card__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.card__title .card__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 22px;
+}
+
+.card__title .card__p2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 12px;
+}
+
+.card__title .card__p3 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 17px;
+}
+
+.box4 {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box4__title .box4__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.box4__title .box4__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.box4 .box4__button {
+    width: 237px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 46px;
+}
+
+.box4 .box4__button:hover {
+    border: 2px solid blue;
+}
+
+
+.box5 {
+    padding-top: 60px;
+}
+
+.box5 .companies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+
+.box6 {
+    padding-top: 80px;
+}
+
+.box6 .box6__card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2 .card2__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.card2 .card2__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 22px;
+}
+
+.box6__pay {
+    padding-top: 28px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.box7 {
+    padding-top: 130px;
+}
+
+.box7 .box7__card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3 .card3__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.card3 .card3__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 22px;
+}
+
+.card3 .card3__p2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 10px;
+}
+
+
+
+.box8 {
+    padding-top: 120px;
+}
+
+.box8 .box8__card4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card4 .card4__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.card4 .card4__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 20px;
+}
+
+.card4 .card4__p2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 15px;
+}
+
+
+.box9 {
+    padding-top: 150px;
+    padding-bottom: 125px;
+    border-bottom: 1px solid #CBD6E2;
+}
+
+.box9 .box9__card5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card5 .card5__h2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.card5 .card5__p {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 22px;
+}
+.card5 .card5__p2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    padding-top: 12px;
+}
+
+.card5 .card5__play {
+    display: flex;
+    gap: 20px;
+    padding-top: 32px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* main2 - end */
+
+
+
+/* footer - start */
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.footer .box10 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.box10 .card10 .card10__h2  {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box10 .card10 .card10__p {
+    padding-top: 33px;
+}
+
+.box10 .card10 .card10__img  {
+    margin-top: 25px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.box10 .card10 .card10__img:hover {
+    border: 2px solid blue;
+}
+
+.box10 .card10 .card10__a {
+    padding-top: 33px;
+}
+
+.card10__p2 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box11 {
+    padding-top: 55px;
+}
+
+.card12 {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card12 .card12__sub .card12__p {
+    color: #AAA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+.card12 .card12__PCI {
+    cursor: pointer;
+}
+
